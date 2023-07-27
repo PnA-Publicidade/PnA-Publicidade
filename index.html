@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>SEMDESTUR</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/logo-semdestur.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/scroll.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="#" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img class="logo" src="img/logo-semdestur.png" alt="logo-semdestur" />
+            <!-- <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>SEMDESTUR</h2> -->
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <div class="nav-item dropdown">
+                    <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Home
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="#" class="dropdown-item active">Início</a>
+                        <a href="#circuito" class="dropdown-item">circuito</a>
+                        <a href="#rotas" class="dropdown-item">Rotas</a>
+                        <a href="#historica" class="dropdown-item">História</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/banners/banner-semdestur-1.jpg" alt="" />
+                <div class="position-absolute top-0 start-0 w-100 h-70 d-flex align-items-center">
+                    <div class="container">
+                        <div class="row justify-content-start"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/banners/banner-semdestur-2.jpg" alt="" />
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--second-->
+    <section id="circuito">
+        <div class="bg-dark h-100 w-100 py-4">
+            <div class="d-flex justify-content-center align-items-center flex-column mb-4">
+                <h1 class="mb-2 text-white text-center">Circuito</h1>
+            </div>
+            <main id="infographic" class="d-flex flex-column align-items-center py-5">
+                <section class="step one text-danger">
+                    <div class="circle">
+                        <i class="fas fa-play" style="font-size: 50px" class="text-center"></i>
+                        <h4>STEP 1</h4>
+                        Você está pronto?
+                    </div>
+                    <article data-step="1">
+                        <header class="d-flex align-items-center bg-danger bg-opacity-10">
+                            <i class="fas fa-theater-masks"></i>
+                            <h6 class="text-uppercase my-3 ps-4">Circuito das Artes</h6>
+                        </header>
+                        <div class="body" id="arte-container" style="
+                  background-image: url(img/circuitos/artes.png);
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  height: 200px;
+                ">
+                            <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                            <small class="text-white"> </small>
+                            <div class="d-flex justify-content-between mt-3 controls">
+                                <a class="btn btn-outline-danger invisible" href="#">Ant</a>
+                                <a class="btn btn-outline-danger" href="#">Prox</a>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="exampleModalLabel">
+                                            Circuito das Artes
+                                        </h3>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h4>Nossa terra tem uma arte formada com a mescla de
+                                            tradições de vários cantos
+                                            do país, compondo um caldeirão, onde teatros, museus e espaços culturais que
+                                            representam dignamente a cultura do norte. Aqui a arte resplandece, cheia de
+                                            histórias e memórias em incessante transformação, fortalecendo a identidade
+                                            do nosso povo</h4>
+                                        <div id="carouselExampleDark" class="carousel carousel-dark slide"
+                                            data-bs-ride="carousel">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleDark"
+                                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleDark"
+                                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleDark"
+                                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            </div>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="10000">
+                                                    <div class="modal-body">
+                                                        <div class="card mb-3" style="width: 100%">
+                                                            <div class="row g-0">
+                                                                <div class="col-md-4">
+                                                                    <img src="img/circuitos/artes/palaciodasArtes.jpg"
+                                                                        class="img-fluid rounded-start" alt="..." />
+                                                                </div>
+                                                                <div class="col-md-8">
+                                                                    <div class="card-body">
+                                                                        <h5 class="card-title text-dark">Teatro Estadual
+                                                                            Palácio das Artes</h5>
+                                                                        <p class="card-text text-dark">
+                                                                            Descrição: É o maior teatro da Região Norte.
+                                                                            Pertence ao Governo do Estado de Rondônia e
+                                                                            comporta mais de 1000 pessoas em suas
+                                                                            instalações.
+                                                                        </p>
+                                                                        <p class="card-text">
+                                                                            <small class="text-muted">
+                                                                                LOCAL: Av. Pres.Dutra, 4183 – Olaria.
+                                                                            </small>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="2000">
+                                                    <div class="card mb-3" style="width: 100%">
+                                                        <div class="row g-0">
+                                                            <div class="col-md-4">
+                                                                <img src="img/circuitos/artes/teatroGuapore.jpg"
+                                                                    class="img-fluid rounded-start" alt="..." />
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="card-body">
+                                                                    <h5 class="card-title text-dark">Teatro Guaporé</h5>
+                                                                    <p class="card-text text-dark">
+                                                                        Anexo ao Teatro das Artes, o Teatro Guporé tem
+                                                                        capacidade para 235 pessoas. Foi inaugurado no
+                                                                        dia 20 de junho de 2014 com o espetáculo "A
+                                                                        Falecida", clássico de Nelson Rodrigues.
+
+                                                                    </p>
+                                                                    <p class="card-text">
+                                                                        <small class="text-muted">LOCAL: R. Tabajara,
+                                                                            148 – Olaria.</small>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    < <div class="card mb-3" style="width: 100%">
+                                                        <div class="row g-0">
+                                                            <div class="col-md-4">
+                                                                <img src="img/circuitos/artes/teatroBanzeiros.jpg"
+                                                                    class="img-fluid rounded-start" alt="..." />
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="card-body">
+                                                                    <h5 class="card-title text-dark">Teatro Banzeiros
+                                                                    </h5>
+                                                                    <p class="card-text text-dark">
+                                                                        Descrição: Com capacidade para 227 pessoas, o
+                                                                        Teatro Municipal Banzeiros integra o Centro de
+                                                                        Formação dos Profissionais da Educação. O nome é
+                                                                        uma homenagem ao rio Madeira, banzeiro é o nome
+                                                                        dado às ondas sucessivas formadas a partir do
+                                                                        momento em que o barco a motor corta as águas do
+                                                                        rio.
+                                                                    </p>
+                                                                    <p class="card-text">
+                                                                        <small class="text-muted">LOCAL: R. José do
+                                                                            Patrocínio, 110, Centro </small>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Ant</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Prox</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                        fechar
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+        </div>
+        </article>
+
+        <article data-step="2">
+            <header class="d-flex align-items-center text-danger bg-danger bg-opacity-10">
+                <i class="fa-solid fa-meteor bg-danger"></i>
+                <h6 class="text-uppercase my-3 ps-4">
+                    Circuito Aventura
+                </h6>
+            </header>
+            <div class="body" id="arte-container" style="
+                  background-image: url(img/circuitos/aventura.png);
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  height: 200px;
+                ">
+
+
+                <div class="d-flex justify-content-between mt-3 controls">
+                    <a class="btn btn-outline-danger" href="#">Ant</a>
+                    <a class="btn btn-outline-danger" href="#">Prox</a>
+                </div>
+            </div>
+        </article>
+        <article data-step="3">
+            <header class="d-flex align-items-center text-danger bg-danger bg-opacity-10">
+                <i class="fa-solid fa-meteor bg-danger"></i>
+                <h6 class="text-uppercase my-3 ps-4">
+                    Circuito Beradeiro
+                </h6>
+            </header>
+
+            <div class="body" id="arte-container" style="
+                  background-image: url(img/circuitos/beradeiro.png);
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  height: 200px;
+                ">
+
+
+                <div class="d-flex justify-content-between mt-3 controls">
+                    <a class="btn btn-outline-danger" href="#">Ant</a>
+                    <a class="btn btn-outline-danger" href="#">Prox</a>
+                </div>
+            </div>
+        </article>
+        <article data-step="4">
+            <header class="d-flex align-items-center text-danger bg-danger bg-opacity-10">
+                <i class="fa-solid fa-meteor bg-danger"></i>
+                <h6 class="text-uppercase my-3 ps-4">
+                    Circuito Ecológico
+                </h6>
+            </header>
+
+            <div class="body" id="arte-container" style="
+            background-image: url(img/circuitos/ecologico.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 200px;
+          ">
+
+
+                <div class="d-flex justify-content-between mt-3 controls">
+                    <a class="btn btn-outline-danger" href="#">Ant</a>
+                    <a class="btn btn-outline-danger" href="#">Prox</a>
+                </div>
+            </div>
+        </article>
+        <article data-step="5">
+            <header class="d-flex align-items-center text-danger bg-danger bg-opacity-10">
+                <i class="fa-solid fa-meteor bg-danger"></i>
+                <h6 class="text-uppercase my-3 ps-4">
+                    Circuito Energia
+                </h6>
+            </header>
+
+            <div class="body" id="arte-container" style="
+            background-image: url(img/circuitos/energia.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 200px;
+          ">
+
+
+                <div class="d-flex justify-content-between mt-3 controls">
+                    <a class="btn btn-outline-danger" href="#">Ant</a>
+                    <a class="btn btn-outline-danger" href="#">Prox</a>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="step two text-warning">
+        <div class="circle">
+            <i class="fa-solid fa-cookie-bite display-1 mb-3"></i>
+            <h4>STEP 2.</h4>
+            Você está indo bem!
+        </div>
+        <article data-step="6">
+            <header class="d-flex align-items-center text-warning bg-warning bg-opacity-10">
+                <i class="fa-solid fa-cookie-bite bg-warning"></i>
+                <h6 class="text-uppercase my-3 pe-4">
+                    Circuito Fora de Rota
+                </h6>
+            </header>
+
+            <div class="body" id="arte-container" style="
+            background-image: url(img/circuitos/foradeRota.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 200px;
+          ">
+
+
+                <div class="d-flex justify-content-between mt-3 controls">
+                    <a class="btn btn-outline-danger" href="#">Ant</a>
+                    <a class="btn btn-outline-danger" href="#">Prox</a>
+                </div>
+            </div>
+        </article>
+        <article data-step="7">
+            <header class="d-flex align-items-center text-warning bg-warning bg-opacity-10">
+                <i class="fa-solid fa-cookie-bite bg-warning"></i>
+                <h6 class="text-uppercase my-3 pe-4">
+                    Circuito Gastronômico
+                </h6>
+            </header>
+
+            <div class="body" id="arte-container" style="
+            background-image: url(img/circuitos/gastronomico.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 200px;
+          ">
+
+
+                <div class="d-flex justify-content-between mt-3 controls">
+                    <a class="btn btn-outline-danger" href="#">Ant</a>
+                    <a class="btn btn-outline-danger" href="#">Prox</a>
+                </div>
+            </div>
+        </article>
+        <article data-step="8">
+            <header class="d-flex align-items-center text-warning bg-warning bg-opacity-10">
+                <i class="fa-solid fa-cookie-bite bg-warning"></i>
+                <h6 class="text-uppercase my-3 pe-4">
+                    Circuito Histórico Cultural
+                </h6>
+            </header>
+
+            <div class="body" id="arte-container" style="
+            background-image: url(img/circuitos/históricoCultural.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 200px;
+          ">
+
+
+                <div class="d-flex justify-content-between mt-3 controls">
+                    <a class="btn btn-outline-danger" href="#">Ant</a>
+                    <a class="btn btn-outline-danger" href="#">Prox</a>
+                </div>
+            </div>
+        </article>
+        <article data-step="9">
+            <header class="d-flex align-items-center text-warning bg-warning bg-opacity-10">
+                <i class="fa-solid fa-cookie-bite bg-warning"></i>
+                <h6 class="text-uppercase my-3 pe-4">
+                    Circuito Junino
+                </h6>
+            </header>
+
+            <div class="body" id="arte-container" style="
+            background-image: url(img/circuitos/junino.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 200px;
+          ">
+
+
+                <div class="d-flex justify-content-between mt-3 controls">
+                    <a class="btn btn-outline-danger" href="#">Ant</a>
+                    <a class="btn btn-outline-danger" href="#">Prox</a>
+                </div>
+            </div>
+        </article>
+        <article data-step="10">
+            <header class="d-flex align-items-center text-warning bg-warning bg-opacity-10">
+                <i class="fa-solid fa-cookie-bite bg-warning"></i>
+                <h6 class="text-uppercase my-3 pe-4">
+                    Circuito Monumentos
+                </h6>
+            </header>
+            <div class="body" id="arte-container" style="
+            background-image: url(img/circuitos/monumentos.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 200px;
+          ">
+
+
+                <div class="d-flex justify-content-between mt-3 controls">
+                    <a class="btn btn-outline-danger" href="#">Ant</a>
+                    <a class="btn btn-outline-danger" href="#">Prox</a>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="step three text-success">
+        <div class="circle">
+            <i class="fa-solid fa-ghost display-1 mb-3"></i>
+            <h4>STEP 3.</h4>
+            Quase lá!
+        </div>
+        <article data-step="11">
+            <header class="d-flex align-items-center text-success bg-success bg-opacity-10">
+                <i class="fa-solid fa-ghost bg-success px-3"></i>
+                <h6 class="text-uppercase my-3 ps-4">
+                    Circuito Pesca Esportiva
+                </h6>
+            </header>
+
+            <div class="body" id="arte-container" style="
+            background-image: url(img/circuitos/pescaEsportiva.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 200px;
+          ">
+
+
+                <div class="d-flex justify-content-between mt-3 controls">
+                    <a class="btn btn-outline-danger" href="#">Ant</a>
+                    <a class="btn btn-outline-danger" href="#">Prox</a>
+                </div>
+            </div>
+        </article>
+        <article data-step="12">
+            <header class="d-flex align-items-center text-success bg-success bg-opacity-10">
+                <i class="fa-solid fa-ghost bg-success px-3"></i>
+                <h6 class="text-uppercase my-3 ps-4">
+                    Circuito Destemidos Pioneiros
+                </h6>
+            </header>
+
+            <div class="body" id="arte-container" style="
+            background-image: url(img/circuitos/pioneiros.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 200px;
+          ">
+
+
+                <div class="d-flex justify-content-between mt-3 controls">
+                    <a class="btn btn-outline-danger" href="#">Ant</a>
+                    <a class="btn btn-outline-danger" href="#">Prox</a>
+                </div>
+            </div>
+        </article>
+        <article data-step="13">
+            <header class="d-flex align-items-center text-success bg-success bg-opacity-10">
+                <i class="fa-solid fa-ghost bg-success px-3"></i>
+                <h6 class="text-uppercase my-3 ps-4">
+                    Circuito Religioso
+                </h6>
+            </header>
+
+
+            <div class="body" id="arte-container" style="
+            background-image: url(img/circuitos/religioso.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 200px;
+          ">
+
+
+                <div class="d-flex justify-content-between mt-3 controls">
+                    <a class="btn btn-outline-danger" href="#">Ant</a>
+                    <a class="btn btn-outline-danger" href="#">Prox</a>
+                </div>
+            </div>
+        </article>
+        <article data-step="14">
+            <header class="d-flex align-items-center text-success bg-success bg-opacity-10">
+                <i class="fa-solid fa-ghost bg-success px-3"></i>
+                <h6 class="text-uppercase my-3 ps-4">
+                    Circuito Rural
+                </h6>
+            </header>
+
+            <div class="body" id="arte-container" style="
+            background-image: url(img/circuitos/rural.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 200px;
+          ">
+
+
+                <div class="d-flex justify-content-between mt-3 controls">
+                    <a class="btn btn-outline-danger" href="#">Ant</a>
+                    <a class="btn btn-outline-danger" href="#">Prox</a>
+                </div>
+            </div>
+        </article>
+        <article data-step="15">
+            <header class="d-flex align-items-center text-success bg-success bg-opacity-10">
+                <i class="fa-solid fa-ghost bg-success px-3"></i>
+                <h6 class="text-uppercase my-3 ps-4">
+                    Circuito Verde
+                </h6>
+            </header>
+
+            <div class="body" id="arte-container" style="
+            background-image: url(img/circuitos/verde.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 200px;
+          ">
+
+
+                <div class="d-flex justify-content-between mt-3 controls">
+                    <a class="btn btn-outline-danger" href="#">Ant</a>
+                    <a class="btn btn-outline-danger" href="#">Prox</a>
+                </div>
+            </div>
+        </article>
+        <article data-step="16">
+            <header class="d-flex align-items-center text-success bg-success bg-opacity-10">
+                <i class="fa-solid fa-flag-checkered bg-success display-2 p-4"></i>
+                <h6 class="text-uppercase my-3 ps-4">
+                    Circuito Verde Amarelo
+                </h6>
+            </header>
+
+            <h6 class="text-uppercase my-3 ps-4"></h6>
+
+            <div class="body" id="arte-container" style="
+            background-image: url(img/circuitos/verdeAmarelo.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 200px;
+          ">
+
+
+                <div class="d-flex justify-content-between mt-3 controls">
+                    <a class="btn btn-outline-danger" href="#">Ant</a>
+                    <a class="btn btn-outline-danger" href="#">Prox</a>
+                </div>
+            </div>
+        </article>
+    </section>
+    </main>
+    </div>
+    </section>
+    <!-- Service End -->
+    <!-- Cards -->
+    <section id="rotas" class="col-md-12 col-sm-6">
+        <div class="content">
+            <a class="card-rotas" href="#!">
+                <div class="front" style="background-image: url(img/rotas/rotaCultural.jpg)">
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
+                </div>
+                <div class="back">
+                    <div>
+                        <h2>ROTA CULTURAL</h2>
+                        <p>
+                            Que tal caminhar pela nossa história, contemplando alguns
+                            patrimônios que sediaram importantes episódios da cidade de
+                            Porto Velho ?
+                        </p>
+                        <button class="button">Saiba +</button>
+                    </div>
+                </div>
+            </a><a class="card-rotas" href="#!">
+                <div class="front" style="background-image: url(img/rotas/rotaArigos.jpg)"></div>
+                <div class="back">
+                    <div>
+                        <h2>ROTAS DO ARIGÓS</h2>
+                        <p>
+                            Comparados aos arigós, pássaros que migram pelo brasil, esses
+                            trabalhadores construíram suas histórias através de muito suor e
+                            garra nos seringais da Amazônia
+                        </p>
+                        <button class="button">Click Here</button>
+                    </div>
+                </div>
+            </a><a class="card-rotas" href="#!">
+                <div class="front" style="background-image: url(img/rotas/rotaFerroviaria.jpg)"></div>
+                <div class="back">
+                    <div>
+                        <h2>ROTA Ferroviária</h2>
+                        <p>
+                            Porto Velho contém a sua maior herança: A Estrada de Ferro
+                            Madeira Mamoré. Através dessa rota você irá viajar sobre os
+                            trilhos envolventes que marcam a força dos nossos destemidos
+                            pioneiros
+                        </p>
+                        <button class="button">Saiba +</button>
+                    </div>
+                </div>
+            </a><a class="card-rotas" href="#!">
+                <div class="front" style="background-image: url(img/rotas/rotaAguas.jpg)"></div>
+                <div class="back">
+                    <div>
+                        <h2>ROTA DAS ÁGUAS</h2>
+                        <p>
+                            Por essa rota você encontra beleza e lazer nas águas geladas dos
+                            nossos rios
+                        </p>
+                        <button class="button">Saiba +</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section></section>
+
+    <div id="historica" class="container-full py-5" style="background: #f1f1f1">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/historia/1907.png" alt=""
+                            style="object-fit: cover" />
+                    </div>
+                </div>
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1907</h1>
+                    <p class="mb-4">
+                        Porto Velho foi criada por desbravadores por volta de 1907,
+                        durante a construção da E.F. Madeira- Mamoré.
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #fff">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1910 a 1912</h1>
+                    <p class="mb-4">Construção das Três Caixas D’Água</p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/historia/19101912.png" alt=""
+                            style="object-fit: cover" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #f1f1f1">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <!-- <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                            style="object-fit: cover;"> -->
+                    </div>
+                </div>
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1914</h1>
+                    <p class="mb-4">
+                        Com a construção da EFMM a cidade passou a abrigar moradores das
+                        mais de duas dezenas de nacionalidades de trabalhadores. Essas
+                        instalações foram a origem da cidade de Porto Velho, criada em 02
+                        de outubro de 1914.
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #fff">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1915</h1>
+                    <p class="mb-4">
+                        A data de 24 de janeiro de 1915 ficou marcado com a instalação do
+                        município de Porto Velho, então pertencente ao Estado do Amazonas
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <!-- <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                            style="object-fit: cover;"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #f1f1f1">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <!-- <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                            style="object-fit: cover;"> -->
+                    </div>
+                </div>
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1916</h1>
+                    <p class="mb-4">
+                        Primeira Eleição municipal, presidida por Major Guapindaia
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #fff">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1917</h1>
+                    <p class="mb-4">
+                        Fundação do Jornal Alto Madeira, por dr. Joaquim Augusto Tanajura,
+                        associado com os senhores Cincinato Elias Ferreira e Francisco
+                        Cezar Queiroz. 3 de maio de 1917 - Lançamento da Pedra Fundamental
+                        da Construção da Catedra
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <!-- <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                            style="object-fit: cover;"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #f1f1f1">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <!-- <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                            style="object-fit: cover;"> -->
+                    </div>
+                </div>
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1919</h1>
+                    <p class="mb-4">
+                        Expedição da Lei nº. 1.011, de 7 de setembro, sancionada por Dr.
+                        Pedro de Alcântara Bacellar, Governador do Estado do Amazonas,
+                        elevando o povoado de Porto Velho à categoria de Cidade.
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #fff">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1926</h1>
+                    <p class="mb-4">
+                        Construção do primeiro Templo Católico em Porto Velho, a Capela de
+                        São Francisco, erguida por iniciativa da sra. Maria Alves de
+                        Andrade, com recursos financeiros próprios e donativos da
+                        comunidade.
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <!-- <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                            style="object-fit: cover;"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #f1f1f1">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <!-- <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                            style="object-fit: cover;"> -->
+                    </div>
+                </div>
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1930</h1>
+                    <p class="mb-4">
+                        Porto Velho se torna de fato “Brasileiro” com a chegada de Aluízio
+                        Pinheiro Ferreira, na década de 1930, que se tornou o primeiro
+                        administrador da Estrada de Ferro Madeira-Mamoré, se tornando um
+                        grande integrador da cidade.
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #fff">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1934</h1>
+                    <p class="mb-4">
+                        Inicio de construção da rodovia Amazonas/Mato Grosso, pelo tenente
+                        Aluízio Ferreira.
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <!-- <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                            style="object-fit: cover;"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #f1f1f1">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                            style="object-fit: cover" />
+                    </div>
+                </div>
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1936</h1>
+                    <p class="mb-4">
+                        Em 3 de maio inauguração da linha aérea Rio de Janeiro/Porto
+                        Velho, pela empresa alemã Condor, subsidiária de Lufthansa.
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #fff">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1940</h1>
+                    <p class="mb-4">
+                        Porto Velho começa a dar seus primeiros saltos populacionais
+                        durante a década de 1940, quando aconteceu o segundo ciclo da
+                        borracha, atraindo para a região, os nordestinos, por exemplo, e
+                        assim a Estrada de Ferro Madeira-Mamoré – EFMM, passa a ganhar
+                        vigor.
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <!-- <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                            style="object-fit: cover;"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #f1f1f1">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <!-- <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                            style="object-fit: cover;"> -->
+                    </div>
+                </div>
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1940</h1>
+                    <p class="mb-4">
+                        Inauguração da usina de geração de energia elétrica, o prédio dos
+                        Correios e telégrafos e conjunto residencial Caiari.
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #fff">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1942</h1>
+                    <p class="mb-4">
+                        Foi instalada a Capitania dos Portos, criada pelo Decreto nº.
+                        6.369, em 11 de dezembro de 1941. Superintendente, o Tenente da
+                        Marinha, Emiliano de Melo Sampaio.
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <!-- <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                            style="object-fit: cover;"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #f1f1f1">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <!-- <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                            style="object-fit: cover;"> -->
+                    </div>
+                </div>
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1943</h1>
+                    <p class="mb-4">
+                        Criação do território Federal do Guaporé, com áreas desmembradas
+                        do Estado do Amazonas e Mato Grosso, pelo Presidente da República,
+                        Dr. Getúlio Dorneles Vargas, por intermédio do Decreto-Lei nº.
+                        5.812, de 13 de setembro. Tendo a cidade de Porto Velho por
+                        Capital e Aluízio Pinheiro Ferreira como governador.
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #fff">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1950</h1>
+                    <p class="mb-4">Inauguração do Edifcíio da Administração da EFMM</p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/historia/1950-1.png" alt=""
+                            style="object-fit: cover" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #f1f1f1ff">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/historia/1950-2.png" alt=""
+                            style="object-fit: cover" />
+                    </div>
+                </div>
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1950</h1>
+                    <p class="mb-4">
+                        Inauguração e Primeira Sessão de Cinema no Cine Teatro Resky
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #fff">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1953</h1>
+                    <p class="mb-4">
+                        Inauguração do Prédio Unir Centro, que antes era Porto Velho Hotel
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/historia/1953.png" alt=""
+                            style="object-fit: cover" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #f1f1f1ff">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <!-- <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                            style="object-fit: cover;"> -->
+                    </div>
+                </div>
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1956</h1>
+                    <p class="mb-4">
+                        Substituída a denominação de Território federal do Guaporé por
+                        Rondônia
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #fff">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1980</h1>
+                    <p class="mb-4">
+                        Durante a década de 1980, outro ‘boom’ populacional se deu com a
+                        criação do Estado de Rondônia e também, com a descoberta do ouro
+                        no Rio Madeira em Porto Velho, e a capital se tornou o ‘Novo
+                        Eldorado’, por atrair pessoas de todo o mundo para vir trabalhar
+                        um busca deste precioso minério
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <!-- <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                            style="object-fit: cover;"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full py-5" style="background: #f1f1f1">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="width: 350px; height: 200px">
+                    <div class="position-relative h-100">
+                        <!-- <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                            style="object-fit: cover;"> -->
+                    </div>
+                </div>
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6> -->
+                    <h1 class="mb-4">1982</h1>
+                    <p class="mb-4">
+                        Instalação do Estado, em 4 de janeiro, iniciando-se uma nova fase
+                        na política, administrativa, econômica social, de expansão
+                        educacional e cultural, nesses 41 anos, tendo Porto Velho como
+                        polo de decisões.
+                    </p>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Links</h4>
+                    <a class="btn btn-link" href="#">Inicio</a>
+                    <a class="btn btn-link" href="#circuito">Circuito</a>
+                    <a class="btn btn-link" href="#rotas">Rotas</a>
+                    <a class="btn btn-link" href="#historica">História</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Contato</h4>
+                    <p class="mb-2">
+                        <i class="fa fa-map-marker-alt me-3"></i>Rua General Osório, n° 81
+                        - Centro
+                    </p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>69 3901-3180</p>
+                    <p class="mb-2">
+                        <i class="fa fa-envelope me-3"></i>gabinete.semdestur@portovelho.ro.gov.br
+                    </p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/semdestur"
+                            target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social"
+                            href="https://www.youtube.com/channel/UCsN9tdofZX-_aVjuJyeadeA" target="_blank"><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/semdesturpvh/"
+                            target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Gallery</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Fique por dentro</h4>
+                    <p>Acesse nosso portal</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Seu email" />
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">
+                            enviar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy;
+                        <a class="border-bottom" href="https://aquivaleapena.com" target="_blank">Pen6 Marketing</a>,
+                        todos os direitos reservados.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designer Por
+                        <a class="border-bottom" href="https://aquivaleapena.com" target="_blank">Pen6 Marketing</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Distributed By
+                        <a class="border-bottom" href="https://aquivaleapena.com" target="_blank">Pen6 Marketing</a>
+                        <!-- <div class=" footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                    </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <!-- <script src="js/timeline.js"></script> -->
+</body>
+
+</html>
